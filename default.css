@@ -1,0 +1,177 @@
+* {
+	font-family: Verdana, Arial, sans-serif;
+}
+a{
+    color: #000000;
+}
+text{
+    color: #FF0000;
+}
+*.left {
+    text-align: left;
+}
+*.center {
+    text-align: center;
+}
+*.right {
+    text-align: right;
+}
+body {  
+    background: #FFFFFF;
+    color: #000000;  
+}  
+a:link {    
+    color: red;    
+    background: transparent;
+    text-decoration: none;
+}    
+    
+a:visited {    
+    color: red;    
+    background: transparent;
+    text-decoration: none;
+}    
+    
+a:hover {    
+    color: #FFFFFF;    
+    background: red;    
+    text-decoration: none;
+}    
+div.header {
+    border-bottom: 1px red solid;
+}
+div.header h1 {     
+	font-size: 30pt;
+    color: red;    
+} 
+hr {
+    display: none;
+}
+img.icon  {     
+	float: left;
+    width: 120px;
+    height: 70px;
+}
+div.main {     
+	margin: 20px;
+}
+div.err {
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #FF0000;
+}
+div.box {
+    margin-left : 20%;
+    margin-right : 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: RED;
+    color: #FFFFFF;    
+}
+div.box h1 {
+    font-size: 14pt;
+    text-align: center;
+    color: #FFFFFF;    
+}
+div.field {
+    margin-top: 10px;
+    width:70%;
+    text-align:right;
+    font-size: 8pt;
+    font-weight: bold;
+  }
+div.field2 {
+    margin-top: 10px;
+    margin-left: 10%;
+    text-align:left;
+    font-size: 8pt;
+    font-weight: bold;
+  }
+div.buttons {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px white solid;
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+input.button {
+    margin: 5px;
+    background: blue;
+    color: #ffffff;
+    border-color: blue;
+}
+
+div.pwd {
+  background: #C0C0C0;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+table {
+    margin-top: 15px;
+    margin-left : 10%;
+    width:80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px red solid;
+    background: white;
+    color: black;    
+}
+caption {
+    margin: 15px;
+    text-align: center;
+    color: red;
+    font-size: 14pt;
+    font-weight: bold;
+}
+table.old caption {     
+	display: none;
+}
+table a:link {        
+	color: black;    
+    background: transparent;
+    text-decoration: none;
+}    
+table a {        
+	color: black;    
+    background: transparent;
+    text-decoration: none;
+}    
+    
+table a:visited {        
+	color: black;    
+    background: transparent;
+    text-decoration: none;
+}    
+    
+table a:hover {        
+	color: black;    
+    background: transparent;
+    text-decoration: none;
+}   
+td {
+  border-top: 1px red solid;
+  font-size: 8pt;
+  color: black;
+
+} 
+th {
+  border-top: 1px red solid;
+  background: white;
+  text-align: left;
+  font-size: 8pt;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+textarea {
+    font-size: 8pt;
+}
+div.footer {
+    border-top: 1px red solid;
+    font-size: 8pt;
+}
